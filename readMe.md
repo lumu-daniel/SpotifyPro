@@ -1,22 +1,27 @@
 
-# Pokemon Pay
+# Spotify Pro
 
-Is an app used to purchase pokemons online
+Is a simple online music player project that gives a similar feel as that of Spotify.
+I used exoplayer for the audio player functionality.
+And a foreground service which starts a notification channel fully controllable by the user.
+The project employs reactive programming using the MVVM architecture.
 
-### Step One
+### Song List
 [<img src='https://github.com/lumu-daniel/PokemonPay/blob/master/app/src/main/res/drawable/search_page.png' alt='Search for Pokemon' height='280'>]
- Search for the pokemon you would like to purchase.
+ Song list is fetched from firestore and presented in a recycler view.
+When a song is selected it will play in the lower bottom view pager with swipe functionality with right for next and left for right
 
-### Step Two
-[<img src='https://github.com/lumu-daniel/PokemonPay/blob/master/app/src/main/res/drawable/details.png' alt='Pokemon Details' height='280'>]
- View the details of the Pokemon figure and click pay button
 
-### Step Three
+### Single Song
 [<img src='https://github.com/lumu-daniel/PokemonPay/blob/master/app/src/main/res/drawable/failed_purchase.png' alt='Purchase Result Failed' height='280'>]
- You then assertain whether the purchase was successful or not.
+ When either the notification or the current element in the view pager is clicked it will navigate user to the song screen.
+ This will show the currently playing song with the seek bar to show the progress.
 
-### Or
-[<img src='https://github.com/lumu-daniel/PokemonPay/blob/master/app/src/main/res/drawable/success_purchase.png' alt='Purchase Result Failed' height='280'>]
+
+### Notification Channel
+[<img src='https://github.com/lumu-daniel/PokemonPay/blob/master/app/src/main/res/drawable/failed_purchase.png' alt='Purchase Result Failed' height='280'>]
+ Is used to give the user control when the application is in the background.
+
 
 ## Technologies and Tools
 #### UX Design: &nbsp; [<img src='https://github.com/lumu-daniel/lumu-daniel/blob/main/assets/images/jc_icon.png' alt='JetPack Compose' height='18'>](https://www.figma.com/developers) [JetPack Compose](https://developer.android.com/jetpack) &nbsp; | &nbsp; [<img src='https://github.com/lumu-daniel/lumu-daniel/blob/main/assets/images/adobe-xd.gif' alt='Adobe XD' height='18'>](https://www.adobe.com/products/xd.html) [Adobe XD]
