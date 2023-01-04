@@ -7,19 +7,19 @@ And a foreground service which starts a notification channel fully controllable 
 The project employs reactive programming using the MVVM architecture.
 
 ### Song List
-[<img src='https://github.com/lumu-daniel/PokemonPay/blob/master/app/src/main/res/drawable/search_page.png' alt='Search for Pokemon' height='280'>]
+[<img src='https://github.com/lumu-daniel/SpotifyPro/blob/master/app/src/main/res/drawable/song_list.png' alt='Search for Pokemon' height='280'>]
  Song list is fetched from firestore and presented in a recycler view.
 When a song is selected it will play in the lower bottom view pager with swipe functionality with right for next and left for right
 
 
 ### Single Song
-[<img src='https://github.com/lumu-daniel/PokemonPay/blob/master/app/src/main/res/drawable/failed_purchase.png' alt='Purchase Result Failed' height='280'>]
+[<img src='https://github.com/lumu-daniel/SpotifyPro/blob/master/app/src/main/res/drawable/song_display.png' alt='Purchase Result Failed' height='280'>]
  When either the notification or the current element in the view pager is clicked it will navigate user to the song screen.
  This will show the currently playing song with the seek bar to show the progress.
 
 
 ### Notification Channel
-[<img src='https://github.com/lumu-daniel/PokemonPay/blob/master/app/src/main/res/drawable/failed_purchase.png' alt='Purchase Result Failed' height='280'>]
+[<img src='https://github.com/lumu-daniel/SpotifyPro/blob/master/app/src/main/res/drawable/notification_channel.png' alt='Purchase Result Failed' height='280'>]
  Is used to give the user control when the application is in the background.
 
 
